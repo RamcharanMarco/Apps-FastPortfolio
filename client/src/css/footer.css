@@ -1,0 +1,53 @@
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: azure;
+    padding: 50px 0px;
+}
+
+.footer-box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-box h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.footer-box a{
+    font-size: 2rem;
+    margin: 7px;
+    text-decoration: none;
+    color: grey;
+}
+
+
+footer .logo{
+    display: flex;
+}
+
+footer .logo .fast{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer .logo .portfolio{
+    font-family: 'Gruppo', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+footer .logo .fast, .portfolio{
+    padding: 5px 10px;
+    line-height: 1rem;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}

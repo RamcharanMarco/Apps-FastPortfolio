@@ -1,0 +1,124 @@
+.layout2{
+    background-color: #1C1C1C;
+    border: 2px solid white;
+}
+
+.layout2 nav {
+    background-color: #1C1C1C
+}
+
+.layout2 nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.layout2 nav a:hover{
+    color: green;
+}
+
+.layout2 .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout2 img{
+    height: 350px;
+    width: 350px;
+    margin: 30px;
+    border-radius: 50%;
+    border: 0.5px solid white;
+}
+
+.layout2 .about{
+    text-align: center;
+    padding: 100px;
+}
+
+.layout2 .about h1{
+    margin: 12px;
+    letter-spacing: 0.1rem;
+}
+
+.layout2 .skills{
+    text-align: center;
+    background-color: yellow;
+    padding: 50px;
+}
+
+.layout2 .skills ul{
+    list-style: none;
+}
+
+.layout2 .skills ul li{
+    margin: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.layout2 .hobbies{
+    text-align: center;
+    background-color: pink;
+    padding: 50px;
+}
+
+.layout2 .hobbies ul{
+    list-style: none;
+}
+
+.layout2 .hobbies ul li{
+    margin: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.layout2 .skills h1{
+    margin: 12px;
+    letter-spacing: 0.5rem;
+}
+
+.layout2 .hobbies h1{
+    margin: 12px;
+    letter-spacing: 0.1rem;
+}
+
+.layout2 .eduandwe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding: 20px;
+}
+
+.layout2 .edu h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.layout2 .we h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.layout2 .edu-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout2 .we-box{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout2 .description{
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+.layout2 .contact{
+    background-color: violet;
+    text-align: center;
+    width: 100%;
+}

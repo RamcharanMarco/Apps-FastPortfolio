@@ -1,0 +1,120 @@
+.home main{
+    min-height: 90vh;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.home main h1{
+    font-size: 3.3rem;
+    line-height: 3rem;
+}
+
+.home main a{
+    font-size: 1.5rem; 
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 60px;
+}
+
+
+.home .steps{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.home .steps h1{
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+
+.home .steps ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.home .steps ul li{
+    font-size: 1.6rem;
+    margin: 5px;
+    color: grey;
+}
+
+.home .banner{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+
+.about{
+    text-align: center;
+    padding: 100px;
+    margin: 30px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.about .logo{
+    display: flex;
+}
+
+.about .logo .fast{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.about .logo .portfolio{
+    font-family: 'Gruppo', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.about .logo .fast, .portfolio{
+    padding: 5px 10px;
+    line-height: 4rem;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+}
+
+.bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}

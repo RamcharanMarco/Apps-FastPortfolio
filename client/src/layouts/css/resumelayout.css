@@ -1,0 +1,12 @@
+.resumeLayout nav{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 15vh;
+}
+
+.resumeLayout nav a{
+    margin: 10px;
+}

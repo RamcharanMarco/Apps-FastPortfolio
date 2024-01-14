@@ -1,0 +1,37 @@
+.addResume{
+    display: flex;
+    flex-direction: column;
+}
+
+.addResume form, .chooselayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.layouts{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.layouts .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.next, .prev{
+    margin: 20px;
+}
+
+.len{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}

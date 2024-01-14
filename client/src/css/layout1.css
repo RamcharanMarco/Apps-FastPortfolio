@@ -1,0 +1,105 @@
+.layout1{
+    background-color: aqua;
+    color: black;
+    width: 100%;
+}
+
+.layout1 img{
+    height: 80vh;
+    width: 100%;
+    margin: 10px;
+}
+
+.layout1 nav{
+    background-color: red;
+    color: white;
+}
+
+.layout1 .banner{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.layout1 .banner .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    background-color: tomato;
+}
+
+.layout1 .about{
+    text-align: center;
+    padding: 25px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+}
+
+.layout1 .about p{
+    width: 70%;
+}
+
+.skillsandhobbies{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.skillsandhobbies ul{
+    list-style: none;
+}
+
+.skillsandhobbies ul li{
+    margin: 6px;
+    font-size: 21px;
+}
+
+.layout1 .skills{
+    background-color: violet;
+    padding: 33px ;
+}
+
+.layout1 .hobbies{
+    background-color: gray;
+    padding: 33px ;
+    text-align: center;
+}
+
+.layout1 .contact{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.layout1 .contact ul{
+    list-style: none;
+}
+
+.layout1 .contact ul li{
+    margin: 20px;
+    font-size: 21px;
+}
+
+.layout1 .education{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.layout1 .education .edu-box{
+    padding: 25px 45px;
+}
+
+.layout1 .we{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.layout1 .we .we-box{
+    padding: 25px 45px;
+}

@@ -1,0 +1,149 @@
+.layout3{
+    background-color: powderblue;
+}
+
+.layout3 nav{
+    background-color: grey;
+}
+
+.layout3 .banner{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.layout3 .banner .left{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    width: 120px;
+    margin: 15px;
+}
+
+.layout3 .banner .right{
+    background-color: green;
+}
+
+.layout3 img{
+    height: 80vh;
+    width: 100%;
+}
+
+.layout3 .about{
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.layout3 .about h3{
+    margin: 6px;
+}
+
+.layout3 .about-para{
+    margin: 20px;
+
+}
+
+
+
+.layout3 .eduandwe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+.layout3 .edu{
+    background-color: wheat;
+}
+
+.layout3 .we{
+    background-color: blueviolet;
+}
+
+.layout3 .edu h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.layout3 .we h1{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.layout3 .edu-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout3 .we-box{  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.layout3 .description{
+    width: 400px;
+    text-align: center;
+    margin: 10px;
+}
+
+
+.layout3 .skills{
+    background-color: tomato;
+    padding: 20px;
+    text-align: center;
+}
+
+.layout3 .hobbies{
+    background-color: steelblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.layout3 .hobbies ul{
+    list-style: none;
+}
+
+.layout3 .hobbies ul li{
+    margin: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.layout3 .hobbies h1{
+    margin: 12px;
+    letter-spacing: 0.5rem;
+}
+
+
+.layout3 .skills ul{
+    list-style: none;
+}
+
+.layout3 .skills ul li{
+    margin: 20px;
+    font-size: 21px;
+    text-align: center;
+}
+
+.layout3 .skills h1{
+    margin: 12px;
+    letter-spacing: 0.5rem;
+}
+
+.layout3 .contact{
+    padding: 40px;
+    text-align: center;
+}
+
+.layout3 .contact h2{
+    margin: 12px;
+}

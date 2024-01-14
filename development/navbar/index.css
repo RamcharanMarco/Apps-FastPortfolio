@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Gruppo&family=Koulen&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+    font-family: 'Gruppo', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.logo1{
+    display: flex;
+}
+
+.logo1 .fast1{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.logo1 .portfolio1{
+    padding: 5px 10px;
+    font-family: 'Gruppo', cursive;
+}
+
+ .fast1, .portfolio1{
+    line-height: 1rem;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gruppo', cursive;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+
+main{
+    min-height: 90vh;
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+main h1{
+    font-size: 3.3rem;
+    line-height: 3rem;
+}
+
+main a{
+    font-size: 1.5rem; 
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: inline;
+    text-decoration: none;
+    border-radius: 60px;
+}
+
+
+.steps{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px;
+}
+
+.steps h1{
+    font-size: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+}
+
+.steps ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    list-style: none;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.steps ul li{
+    font-size: 1.6rem;
+    margin: 5px;
+    color: grey;
+}
+
+.banner{
+    padding: 40px;
+    text-align: center;
+    color: black;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: azure;
+    padding: 50px 0px;
+}
+
+.footer-box{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-box h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.footer-box a{
+    font-size: 2rem;
+    margin: 7px;
+    text-decoration: none;
+    color: grey;
+}
+
+.about{
+    text-align: center;
+    padding: 100px;
+    margin: 30px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.about .logo{
+    display: flex;
+}
+
+.about .logo .fast{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.about .logo .portfolio{
+    font-family: 'Gruppo', cursive;
+    display: flex;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.about .logo .fast, .portfolio{
+    padding: 5px 10px;
+    line-height: 4rem;
+    letter-spacing: 0.3rem;
+    font-size: 4rem;
+}
+
+.bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+footer .logo{
+    display: flex;
+}
+
+footer .logo .fast{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+}
+
+footer .logo .portfolio{
+    font-family: 'Gruppo', cursive;
+    display: flex;
+    align-items: center;
+}
+
+footer .logo .fast, .portfolio{
+    padding: 5px 10px;
+    line-height: 2rem;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+}
+
+
+.logo-box{
+    display: flex;
+}

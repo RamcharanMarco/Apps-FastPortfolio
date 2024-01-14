@@ -1,0 +1,46 @@
+.signup{
+    background-color: azure;
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.signup form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup h1{
+    margin: 20px;
+    font-size: 3rem;
+}
+
+.signup p{
+    font-size: 1.5rem;
+}
+
+
+.signup form *{
+    margin: 10px 0px;
+}
+
+.signup form input,button{
+    height: 40px;
+    width: 300px;
+}
+
+.signup form button{
+    font-size: 1.4rem;
+    background-color: black;
+    color: white;
+    width: 300px;
+}
+
+
+

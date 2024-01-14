@@ -1,0 +1,85 @@
+import {useState, useEffect, useCallback} from 'react'
+import {useAuthContext} from '../../../hooks/useAuthContext'
+import {Link} from 'react-router-dom'
+import './vacancies.css'
+
+function Vacancies() {
+
+  const [vacancies, setVacancies] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(false)
+
+  const {employer} = useAuthContext()
+
+  const getVacancies = useCallback( async () => {
+    setLoading(true)
+    setError(null)
+    const response = await fetch('http://localhost:5000/api/employer/jobs/getJobSingleEmployer', {
+        headers: {
+            'Authorization' : `Bearer ${employer.token}`
+          }
+    })
+
+    const json = await response.json()
+
+    if(!response.ok){
+      setLoading(false)
+      setError(true)
+  }
+  if(response.ok){
+      setLoading(false)
+      setVacancies(json)
+  }
+  },[employer])
+
+
+  useEffect( ()=>{
+    getVacancies()
+
+  },[getVacancies])
+
+  if(loading){
+    return (
+    <div 
+    style={{height: '80vh', 
+    backgroundColor: 'azure',
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center'}}>
+      <h1>...LOADING</h1>
+    </div>
+    )
+  }
+
+  if(error){
+    return (
+    <div 
+    style={{height: '80vh', 
+    backgroundColor: 'azure',
+    display: 'flex', 
+    justifyContent: 'center', 
+    alignItems: 'center'}}>
+      <h1>...ERROR</h1>
+    </div>
+    )
+  }
+
+  return (
+
+    <div className='vacancies'>
+      {!vacancies && <h1>you have no vacancies available</h1>}
+      {vacancies && 
+      vacancies.map((vac) => {
+        return (
+          <div className='vacancy' key={vac._id}>
+            <h1>{vac.title}</h1>
+               <Link to={`/employer/dashboard/vacancies/${vac._id}`}>view job</Link>
+          </div>
+        )
+      })
+      }
+    </div>
+  )
+}
+
+export default Vacancies

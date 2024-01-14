@@ -1,0 +1,38 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gruppo', cursive;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+nav .logo1{
+    display: flex;
+}
+
+nav .logo1 .fast1{
+    background-color: black;
+    font-family: 'Gruppo', cursive;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav .logo1 .portfolio1{
+    padding: 5px 10px;
+    font-family: 'Gruppo', cursive;
+}
+
+nav .fast1, .portfolio1{
+    line-height: 1rem;
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+}
+
